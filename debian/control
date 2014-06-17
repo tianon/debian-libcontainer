@@ -1,0 +1,22 @@
+Source: libcontainer
+Section: devel
+Priority: extra
+Maintainer: Tianon Gravi <admwiggin@gmail.com>
+Uploaders: Docker Packaging Team <docker-maint@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), dh-golang, golang-go
+Standards-Version: 3.9.5
+Homepage: https://github.com/docker/libcontainer
+Vcs-Git: git://anonscm.debian.org/XXX-TBD.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=XXX-TBD.git
+
+Package: golang-libcontainer-dev
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Built-Using: ${misc:Built-Using}
+Description: Go client bindings for libcontainer, a reference implementation for containers
+ libcontainer specifies configuration options for what a container is. It
+ provides a native Go implementation for using Linux namespaces with no external
+ dependencies. libcontainer provides many convenience functions for working with
+ namespaces, networking, and management.
+ .
+ This package contains the source.
