@@ -6,8 +6,8 @@ Uploaders: Docker Packaging Team <docker-maint@lists.alioth.debian.org>
 Build-Depends: debhelper (>= 9), dh-golang, golang-docker-dev, golang-go
 Standards-Version: 3.9.5
 Homepage: https://github.com/docker/libcontainer
-Vcs-Git: git://anonscm.debian.org/XXX-TBD.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=XXX-TBD.git
+Vcs-Git: git://anonscm.debian.org/docker/libcontainer.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=docker/libcontainer.git
 
 Package: golang-libcontainer-dev
 Architecture: all
